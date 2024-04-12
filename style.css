@@ -5,7 +5,7 @@
 }
 
 
-/* Estilos del header */
+
 
 header {
     padding: 10% 20px;
@@ -25,10 +25,12 @@ header h2 {
 }
 
 
-/* Reglas para las columnas */
 
 
-/*section1*/
+.columna {
+    flex: 1;
+    text-align: center;
+  }
 
 #section1 {
     text-align: center;
@@ -51,17 +53,13 @@ header h2 {
     float: left;
     background: #5f9ea0;
     text-align: center;
-    /*     padding: 30px;
- */
     color: white;
 }
 
 
-/*Seccion3*/
 
 #section3 .column-2 {
     width: 50%;
-    /* padding: 0 7%; */
     float: left;
 }
 
@@ -103,15 +101,15 @@ li {
 }
 
 
-/* Sección 5*/
+
 
 #section5 {
     width: 100%;
     float: left;
     background: black;
     text-align: center;
-    /*     padding: 30px;
- */
+    
+ 
     color: white;
     height: 40px;
 }
