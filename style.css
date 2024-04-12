@@ -16,13 +16,6 @@ header {
     background-attachment: fixed;
 }
 
-header h1 {
-    font-size: 60px;
-}
-
-header h2 {
-    font-size: 40px;
-}
 
 
 
@@ -46,7 +39,7 @@ header h2 {
 }
 
 
-/*section2*/
+
 
 #section2 .column-1 {
     width: 100%;
@@ -70,20 +63,20 @@ header h2 {
 }
 
 
-/* Seccion*/
+
 
 #section4 .column-3 {
     width: 33.33%;
     float: left;
-    /*     padding: 20px;
- */
+    
+ 
     text-align: center;
     background-color: #21252995;
     height: 100px;
 }
 
 .column-3>p {
-    color: lightcyan;
+    color: rgb(201, 253, 253);
 }
 
 .column-3>h1 {
@@ -91,7 +84,7 @@ header h2 {
 }
 
 a {
-    color: lightcyan;
+    color: rgb(190, 252, 252);
     text-decoration: none;
     list-style-type: none;
 }
@@ -101,6 +94,44 @@ li {
 }
 
 
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 45px;
+    }
+    header h2 {
+        font-size: 25px;
+    }
+    header {
+        padding: 50px;
+    }
+    #section1 .gallery {
+        width: 100%;
+    }
+    #section3 .column-2 {
+        width: 100%;
+    }
+    #section2 #section3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #section4 > #title{
+        width: 100%;
+    }
+    #section4>.column3 {
+        width: 50%;
+    }
+    
+    .relleno-lateral {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #section1 > .column-1{
+        width: 100%;
+    }
+    #section1 > .gallery{
+        width: 50%;
+    }
 
 
 #section5 {
